@@ -10,12 +10,13 @@
   <LI>Test Data: Used to assess the model's performance on unseen data</LI>
 </UL>
 
-Model Architecture
-The model architecture consists of a convolutional neural network (CNN) implemented using TensorFlow's Sequential API. The architecture includes several convolutional layers followed by max-pooling layers for feature extraction. The flattened output is then fed into fully connected layers for classification. Dropout regularization is applied to prevent overfitting, and the final layer uses a softmax activation function to output class probabilities.
+<h2>Model Architecture</h2>
 
-Training
-The model is trained using the training data with an Adam optimizer and sparse categorical cross-entropy loss function. Training is performed for a specified number of epochs, and the model's performance is monitored using the validation data.
+<p>The model architecture consists of a convolutional neural network (CNN) implemented using TensorFlow's Sequential API. The architecture includes several convolutional layers followed by max-pooling layers for feature extraction. The flattened output is then fed into fully connected layers for classification. Dropout regularization is applied to prevent overfitting, and the final layer uses a softmax activation function to output class probabilities.</p>
 
+<h2>Training</h2>
+<p>The model is trained using the training data with an Adam optimizer and sparse categorical cross-entropy loss function. Training is performed for a specified number of epochs, and the model's performance is monitored using the validation data.
+</p>
 Evaluation
 After training, the model's performance is evaluated using the test data to assess its accuracy in classifying new, unseen images.
 
