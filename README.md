@@ -1,4 +1,5 @@
-Image Classification with TensorFlow
+###Image Classification with TensorFlow
+
 This repository contains code for building an image classification model using TensorFlow and Keras. The model is trained to classify images of fruits and vegetables into different categories.
 
 Dataset
