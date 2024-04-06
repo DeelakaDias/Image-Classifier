@@ -6,9 +6,8 @@
 <p>The dataset used for training, validation, and testing contains images of various fruits and vegetables. It is organized into three subsets:</p>
 <UL>
   <LI>Training Data: Used to train the model</LI>
-  
-Validation Data: Used to evaluate the model's performance during training and tune hyperparameters
-Test Data: Used to assess the model's performance on unseen data
+  <li>Validation Data: Used to evaluate the model's performance during training and tune hyperparameters</li>
+  <LI>Test Data: Used to assess the model's performance on unseen data</LI>
 </UL>
 
 Model Architecture
