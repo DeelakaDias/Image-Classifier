@@ -1,13 +1,16 @@
 <h1>Image Classification with TensorFlow</h1>
 
-This repository contains code for building an image classification model using TensorFlow and Keras. The model is trained to classify images of fruits and vegetables into different categories.
+<p>This repository contains code for building an image classification model using TensorFlow and Keras. The model is trained to classify images of fruits and vegetables into different categories. </p>
 
-Dataset
-The dataset used for training, validation, and testing contains images of various fruits and vegetables. It is organized into three subsets:
-
-Training Data: Used to train the model
+<h2>Dataset</h2>
+<p>The dataset used for training, validation, and testing contains images of various fruits and vegetables. It is organized into three subsets:</p>
+<UL>
+  <LI>Training Data: Used to train the model</LI>
+  
 Validation Data: Used to evaluate the model's performance during training and tune hyperparameters
 Test Data: Used to assess the model's performance on unseen data
+</UL>
+
 Model Architecture
 The model architecture consists of a convolutional neural network (CNN) implemented using TensorFlow's Sequential API. The architecture includes several convolutional layers followed by max-pooling layers for feature extraction. The flattened output is then fed into fully connected layers for classification. Dropout regularization is applied to prevent overfitting, and the final layer uses a softmax activation function to output class probabilities.
 
