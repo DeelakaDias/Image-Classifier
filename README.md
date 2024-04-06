@@ -1,3 +1,3 @@
 # Image-Classifier
 Image classification model to identify fruits and vegetables
-CNN, Tensorflow
+Tech Stack - CNN, TensorFlow/Keras -  Sequential API
